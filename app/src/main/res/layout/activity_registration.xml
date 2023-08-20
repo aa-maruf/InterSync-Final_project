@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:orientation="vertical">-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/technasans"
+            android:layout_marginLeft="50dp"
+            android:text=" Let's Get Started !"
+            android:textSize="30sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/arial"
+            android:text="Build Your Future With us"
+            android:gravity="center"
+            android:textSize="17sp" />
+
+        <View
+            android:id="@+id/emptyBoxView"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:visibility="invisible" />
+        <!--        </LinearLayout>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/textViewUsername"
+                android:layout_width="167dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="52dp"
+                android:text="Username"
+                android:textColor="#AFB2BC"
+
+                />
+
+            <EditText
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-35dp"
+                android:hint="tawsif" />
+
+            <ImageView
+                android:id="@+id/imageViewUser"
+                android:layout_width="26dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-38dp"
+                android:src="@drawable/user" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+
+                android:layout_width="167dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="52dp"
+                android:text="Email"
+                android:textColor="#AFB2BC" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-35dp"
+                android:hint="xyz@gmail.com" />
+
+            <ImageView
+                android:id="@+id/imageViewEmail"
+                android:layout_width="26dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-38dp"
+                android:src="@drawable/user" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/textViewPhoneNumber"
+                android:layout_width="167dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="52dp"
+                android:text="Phone Number"
+                android:textColor="#AFB2BC" />
+
+            <EditText
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-35dp"
+                android:hint="01692441139" />
+
+            <ImageView
+                android:id="@+id/imageViewPhoneNumber"
+                android:layout_width="26dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-38dp"
+                android:src="@drawable/phone_number" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/textViewLocation"
+                android:layout_width="167dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="52dp"
+                android:text="Location"
+                android:textColor="#AFB2BC" />
+
+            <EditText
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-35dp"
+                android:hint="Mirpur - 2, Dhaka - 1216" />
+
+            <ImageView
+                android:id="@+id/imageViewLocation"
+                android:layout_width="26dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-38dp"
+                android:src="@drawable/location" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+
+                android:layout_width="167dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="52dp"
+                android:text="Password"
+                android:textColor="#AFB2BC" />
+
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-35dp"
+                android:hint="AAaa11@@m"
+                android:inputType="textPassword"
+
+                />
+
+
+
+
+            <ImageView
+                android:id="@+id/imageViewPassword"
+                android:layout_width="28dp"
+                android:layout_height="21dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-38dp"
+                android:src="@drawable/password" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/textViewConfirmPass"
+                android:layout_width="167dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="52dp"
+                android:text="Confirm Password"
+                android:textColor="#AFB2BC" />
+
+            <EditText
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-35dp"
+                android:hint="AAaa11@@"
+                android:inputType="textPassword">
+
+            </EditText>
+
+
+            <ImageView
+                android:id="@+id/imageViewConfirmPass"
+                android:layout_width="26dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-38dp"
+                android:src="@drawable/password" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:visibility="gone" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-10dp"
+            >
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I have agreed to the "/>
+
+
+            <!--            will work on this textview latter-->
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms and Condition"
+                android:textColor="#5097FF"
+                />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_registertoregister"
+            android:layout_width="230dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button"
+            android:padding="16dp"
+            android:text="Continue"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Click To Login"
+            android:layout_marginTop="6dp"
+            android:id="@+id/loginNow"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

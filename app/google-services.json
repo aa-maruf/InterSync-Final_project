@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "894482495847",
+    "project_id": "loginregistration-57ccf",
+    "storage_bucket": "loginregistration-57ccf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894482495847:android:258df27ca17627460217c2",
+        "android_client_info": {
+          "package_name": "com.example.project_login_regetration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894482495847-2i69rq5ian9ul99gmnsb6hkdsahbts2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXyevIFhyIZ-y4NA6h0mDkrPu6kKgztnw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894482495847-2i69rq5ian9ul99gmnsb6hkdsahbts2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

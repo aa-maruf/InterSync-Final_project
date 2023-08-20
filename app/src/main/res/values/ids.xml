@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_allJob" type="id" />
+    <item name="btn_postJob" type="id" />
+    <item name="dashboardtologinnnn" type="id" />
+    <item name="titleEditText" type="id" />
+    <item name="dateEditText" type="id" />
+    <item name="descriptionEditText" type="id" />
+    <item name="skillsEditText" type="id" />
+    <item name="salaryEditText" type="id" />
+</resources>

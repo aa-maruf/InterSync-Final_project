@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        jcenter()
+        // Other repositories if needed
+    }
+
+//    dependencies {
+//        classpath 'com.android.tools.build:gradle:4.2.0'
+//        // other dependencies if needed
+//    }
+}
+
+rootProject.name = "project_login_regetration"
+include ':app'
